@@ -1,0 +1,30 @@
+body{
+    background: rgb(131, 131, 250);
+    font: 15pt Arial;
+}
+header{
+    color: whitesmoke;
+    text-align: center
+}
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 100px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.384);
+}
+footer{
+    color: whitesmoke;
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+}
+#horario{
+    position: absolute;
+    top: 150px;
+    right: 45%;
+}
+div{
+    text-align: center;
+}

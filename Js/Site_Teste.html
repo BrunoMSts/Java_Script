@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>              <!-- A cabeça é a parte onde vamos mexer na parte central do site, configurações-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Teste de Site</title>
+    <style>          /*O estilo geralmente é configurado aqui na HEAD*/
+        body{
+
+            background-color: rgb(76, 216, 169);
+            color: rgb(0, 94, 62);
+            font: normal 15pt Hermit;
+        }
+        h1{
+            color: rgb(0, 90, 60);
+        }
+        h2{
+            color: rgb(49, 124, 99);
+        }
+    </style>
+</head>
+<body>              <!-- O corpo é onde vamos mexer na interface do site -->
+    <h1>Olá, mundo!</h1>
+    <h2> teste de titulos</h2>
+    <p> Salvo!!, ufaa..</p>
+    <script>
+        var nome = prompt('Qual seu nome?'); //O prompt faz uma pergunta...
+        alert('Prazer em te conhecer, ' + nome);
+        var n1 = Number(prompt('Digite um número qualquer: ')); //parseInt serve para converter str para int, colocando só o number também funciona e vale para float, o programa consegue se virar...
+        var n2 = Number(prompt('Digite outro número: ')); //parseFloat é a mesma coisa...
+        var s = n1 + n2
+        alert(`A soma entre ${n1} e ${n2} é ${s}`);
+        document.write(`Bem vindo(a) <strong>${nome}</strong>!<br/>`) //O strong deixa em Negrito.., e o br quebra linha...
+        document.write(`Constamos que seu nome possui ${nome.length} letras!<br/>`)
+        document.write(`E aqui está resultado da soma inicial ${s.toFixed(2)}.<br/>`) //O fixed serve para fixar o número em qntas casas decimais eu quiser...
+        document.write(`<br/>Só pra lembrar depois como fazer o formato de salário...<br/>'s.toLocaleString('pt-BR', {style:'currency', currency:'BRL'})', pode ser USD, EUR...etc<br/>`)
+        document.write(`<br/>Exemplo ----> ${s.toLocaleString('pt-BR',{style:'currency', currency:'BRL'})}<br/>Exemplo ----> ${s.toLocaleString('pt-BR',{style:'currency', currency:'USD'})}`)
+    </script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+body{
+    background: lightblue;
+    font: 15pt Arial;
+}
+h1{
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.450);
+}
+header{
+    color: whitesmoke;
+    text-align: center;
+}
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 100px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.493);
+}
+footer{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+    text-shadow: 1px 1px 2px white;
+}
+#ini{
+    position: relative;
+    bottom: 70px;
+    left: 25px;
+}
+#pass{
+    position: relative;
+    bottom: 70px;
+    left: 15px;
+}
+#fi{
+    position: relative;
+    bottom: 70px;
+    left: 38px;
+}
+#contar{
+    position: relative;
+    text-align: center;
+    left: 135px;
+    bottom: 60px;
+}
+#cont{
+    position: relative;
+    text-align: left;
+    bottom: 40px;
+}
