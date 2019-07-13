@@ -1,0 +1,60 @@
+body{
+    background: rgb(122, 224, 255);
+    font: 15pt Arial;
+}
+header{
+    text-align: center;
+}
+h1{
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+section{
+    background: white;
+    padding: 150px;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+}
+footer{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 2px 2px 5px black;
+}
+#textN{
+    position: relative;
+    bottom: 150px;
+    left: 35px;
+}
+#adc{
+    position: relative;
+    left: 70px;
+}
+#numero{
+    position: relative;
+    left: 60px;
+}
+#n{
+    position: relative;
+    top: 45px;
+    right: 145px;
+}
+#textS{
+    position: relative;
+    bottom:125px;
+    right: 110px;
+}
+#numeros{
+    width: 205px;
+}
+#fim{
+    position: relative;
+    right: 205px;
+    top: 25px;
+}
+#res{
+    position: relative;
+    bottom: 70px;
+}

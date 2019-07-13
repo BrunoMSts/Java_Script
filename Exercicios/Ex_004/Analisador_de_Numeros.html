@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Number Analisator</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header><h1>Analisador de Números</h1></header>
+    <section>
+        <div id='textN'><p id='n'>Número entre 0 e 100:</p><input type="number" id='numero'><input type="button" value="Adicionar" id='adc' onclick="adciona()"></div>
+        <div id='textS'><select name="numeros" id="numeros" size="10"></select><input type="button" value="Finalizar" id='fim' onclick="limpa()">
+            <!-- <p id='qnt'></p><p id='max'></p><p id='min'></p><p id='somatorio'></p><p id='media'></p> SE QUISER MOSTRAR OS VALORES EM PARÁGRAFOS-->
+        </div>
+        <div id='res'></div>
+    </section>
+    <footer>&copy; Bruno-M</footer>
+    <script src="código.js"></script>
+</body>
+</html>
